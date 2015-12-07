@@ -3,7 +3,7 @@ require('!style!css!sass!./style.scss')
 import React from 'react'
 import { Styles, Table, TableBody, TableHeader, TableHeaderColumn, TableRow, TableRowColumn } from 'material-ui'
 import { Link } from 'react-router'
-import Reflux from 'reflux'
+import { Provider } from 'reflux'
 import moment from 'moment';
 
 import RefuelsStore from './store'
